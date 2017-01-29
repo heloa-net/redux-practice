@@ -5,13 +5,6 @@ export function increment(index) {
   }
 }
 
-// export function decrement(index) {
-//   return {
-//     type: 'DECREMENT_LIKES',
-//     index
-//   }
-// }
-
 export function addComment(postId, author, comment) {
   return {
     type: 'ADD_COMMENT',
